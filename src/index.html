@@ -76,12 +76,12 @@
 
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-                    <li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                    <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                    <li class="menu__link"><a href="#about">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#resume">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#price">ПРАЙС-ЛИСТ</a></li>
+                    <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
 
@@ -121,8 +121,8 @@
                 из города Алматы
             </h1>
             <div class="promo__btns">
-                <a href="#" class="promo__link btn">Портфолио</a>
-                <a href="#" class="promo__link">Про меня</a>
+                <a href="#portfolio" class="promo__link btn">Портфолио</a>
+                <a href="#about" class="promo__link btn">Про меня</a>
             </div>
         </div>
     </section>
@@ -134,7 +134,7 @@
                     <img src="img/main_photo.JPG" alt="my_photo">
                 </div>
                 <div class="about__descr">
-                    <h2 class="title title_fz16 about__title">Про меня</h2>
+                    <h2 class="title title_fz16 about__title" id="about">Про меня</h2>
                     <div class="title title_fz36 about__subtitle">Меня зовут Салтанат</div>
                     <div class="divider"></div>
                     <p class="about__text">
@@ -180,8 +180,355 @@
         </div>
     </section>
 
-    
+    <section class="resume">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title" id="resume">Опыт</h2>
+            <div class="title title_fz36 title__section-subtitle">Чем я буду полезна</div>
+            <div class="divider"></div>
 
+            <div class="resume__wrapper">
+                <div class="resume__column">
+                    <h3 class="title title_fz20 resume__column-title">Образование</h3>
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/university.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">"Колледж Семей"</h4>
+                                    <div class="resume__item-location">Дизайн (по профилю) | Семей (2013-2016)</div>
+                                </div>
+                                <div class="resume__item-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/courses.svg" alt="courses">
+                                    </div>
+                                    <h4 class="title title_fz14">Udemy</h4>
+                                    <div class="resume__item-location">Курсы по Web-разработке (2021)</div>
+                                </div>
+                                <div class="resume__item-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume__column">
+                    <h3 class="title title_fz20 resume__column-title">Опыт работы</h3>
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/developer.svg" alt="developer">
+                                    </div>
+                                    <h4 class="title title_fz14">Front-End Developer</h4>
+                                    <div class="resume__item-location">Freelance | Алматы (2021)</div>
+                                </div>
+                                <div class="resume__item-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/designer.svg" alt="designer">
+                                    </div>
+                                    <h4 class="title title_fz14">UI/UX Designer</h4>
+                                    <div class="resume__item-location">Squad Team | Москва (2018)</div>
+                                </div>
+                                <div class="resume__item-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title" id="skills">Навыки</h2>
+            <div class="title title_fz36 title__section-subtitle">Что я использую в работе</div>
+            <div class="divider"></div>
+
+            <div class="skills__wrapper">
+                <div id="square">
+                    <div class="skills__item">
+                        <div class="skills__item-icon">
+                            <img src="icons/skills/html5.svg" alt="html5">
+                        </div>
+                        <div class="title title_fz14 skills__item-title">HTML5</div>
+                        <div class="skills__item-descr">
+                            Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта
+                        </div>
+                    </div>
+                </div>
+                <div id="square">
+                    <div class="skills__item">
+                        <div class="skills__item-icon">
+                            <img src="icons/skills/css3.svg" alt="css3">
+                        </div>
+                        <div class="title title_fz14 skills__item-title">CSS3</div>
+                        <div class="skills__item-descr">
+                            Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!
+                        </div>
+                    </div>
+                </div>
+                <div id="square">
+                    <div class="skills__item">
+                        <div class="skills__item-icon">
+                            <img src="icons/skills/js.svg" alt="js">
+                        </div>
+                        <div class="title title_fz14 skills__item-title">Java Script</div>
+                        <div class="skills__item-descr">
+                            Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое
+                        </div>
+                    </div>
+                </div>
+                <div id="square">
+                    <div class="skills__item">
+                        <div class="skills__item-icon">
+                            <img src="icons/skills/jquery.svg" alt="jquery">
+                        </div>
+                        <div class="title title_fz14 skills__item-title">Jquery</div>
+                        <div class="skills__item-descr">
+                            Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует
+                        </div>
+                    </div>
+                </div>
+                <div id="square">
+                    <div class="skills__item">
+                        <div class="skills__item-icon">
+                            <img src="icons/skills/react.svg" alt="react">
+                        </div>
+                        <div class="title title_fz14 skills__item-title">React</div>
+                        <div class="skills__item-descr">
+                            Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели
+                        </div>
+                    </div>
+                </div>
+                <div id="square">
+                    <div class="skills__item">
+                        <div class="skills__item-icon">
+                            <img src="icons/skills/node.js.svg" alt="node.js">
+                        </div>
+                        <div class="title title_fz14 skills__item-title">Node.js</div>
+                        <div class="skills__item-descr">
+                            Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит
+                        </div>
+                    </div>
+                </div>
+                <div id="square">
+                    <div class="skills__item">
+                        <div class="skills__item-icon">
+                            <img src="icons/skills/mongo.db.svg" alt="mongo.db">
+                        </div>
+                        <div class="title title_fz14 skills__item-title">Mongo.db</div>
+                        <div class="skills__item-descr">
+                            Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__progress">
+                <div class="skills__progress-items">
+                    <div class="title title_fz14 skills__progress-title">Создание сайтов</div>
+                    <div class="title title_fz14 skills__progress-percent">100%</div>
+                    <div class="skills__progress-rectangle">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__progress-items">
+                    <div class="title title_fz14 skills__progress-title">Создание приложений</div>
+                    <div class="title title_fz14 skills__progress-percent">85%</div>
+                    <div class="skills__progress-rectangle">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__progress-items">
+                    <div class="title title_fz14 skills__progress-title">Работа с данными</div>
+                    <div class="title title_fz14 skills__progress-percent">90%</div>
+                    <div class="skills__progress-rectangle">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__progress-items">
+                    <div class="title title_fz14 skills__progress-title">Креативность</div>
+                    <div class="title title_fz14 skills__progress-percent">75%</div>
+                    <div class="skills__progress-rectangle">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__progress-items">
+                    <div class="title title_fz14 skills__progress-title">Создание дизайна</div>
+                    <div class="title title_fz14 skills__progress-percent">90%</div>
+                    <div class="skills__progress-rectangle">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__progress-items">
+                    <div class="title title_fz14 skills__progress-title">Soft skills</div>
+                    <div class="title title_fz14 skills__progress-percent">95%</div>
+                    <div class="skills__progress-rectangle">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title" id="portfolio">Портфолио</h2>
+            <div class="title title_fz36 title__section-subtitle">Мои работы</div>
+            <div class="divider"></div>
+
+            <div class="portfolio__wrapper">
+                <a href="/uber" class="portfolio__item">
+                    <img src="img/works/uber.jpg" alt="uber">
+                </a>
+                <a href="/pulse" class="portfolio__item">
+                    <img src="img/works/pulse.jpg" alt="pulse">
+                </a>
+                <a href="/prince" class="portfolio__item">
+                    <img src="img/works/prince.jpg" alt="prince">
+                </a>
+                <a href="/wordpress" class="portfolio__item vertical">
+                    <img src="img/works/plans.jpg" alt="wordpress">
+                </a>
+                <a href="#" class="portfolio__item">
+                    <img src="img/works/ipad.jpg" alt="ipad">
+                </a>
+                <a href="/POLEJIM" class="portfolio__item horizontal">
+                    <img src="img/works/bed.jpg" alt="bad">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title" id="price">Прайс-лист</h2>
+            <div class="divider"></div>
+
+            <div class="price__wrapper">
+                <div class="price__item">
+                    <div class="price__type">Landing-page</div>
+                    <div class="price__count">от 8000 руб.</div>
+                    <div class="price__descr">
+                        Одностраничный сайт для презентации услуг/товаров/...
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Web-приложение</div>
+                    <div class="price__count">от 28000 руб.</div>
+                    <div class="price__descr">
+                        Приложение внутри браузера для лучшего комфорта
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Корпоративный сайт</div>
+                    <div class="price__count">от 20000 руб.</div>
+                    <div class="price__descr">
+                        Сайт для вашего бизнеса или компании
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Android/IOS Приложение</div>
+                    <div class="price__count">от 25000 руб.</div>
+                    <div class="price__descr">
+                        Приложение для смартфона любой ОС
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Интернет-магазин</div>
+                    <div class="price__count">от 30000 руб.</div>
+                    <div class="price__descr">
+                        Инструмент для ваших продаж в сети
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Дизайн</div>
+                    <div class="price__count">Индивидуально</div>
+                    <div class="price__descr">
+                        Создам дизайн для вашего сайта/приложения...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/second_photo.JPG" alt="my_photo">
+                </div>
+                <div class="contacts__descr">
+                    <h2 class="title title_fz16 contacts__title" id="contacts">Контакты</h2>
+                    <div class="title title_fz36 contacts__subtitle">Свяжитесь со мной</div>
+                    <div class="divider"></div>
+                    <div class="title title_fz14 contacts__text">
+                        Любым удобным для вас способом:
+                    </div>
+                    <div class="contacts__social">
+                        <a href="https://www.facebook.com/profile.php?id=100017608356358" class="contacts__link">
+                            <img src="icons/social/facebook_straight.svg" alt="facebook">
+                        </a>
+                        <a href="https://t.me/MellamoSati" class="contacts__link">
+                            <img src="icons/social/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="https://www.instagram.com/sati_the_best_photography/" class="contacts__link">
+                            <img src="icons/social/instagram_straight.svg" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="title title_fz14 contacts__text">
+                        Или оставьте ваши данные и я сама вам напишу:
+                    </div>
+
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input required name="name" id="name" type="text">
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="contacts__input">
+                            <input required name="email" id="email" type="email">
+                            <label for="email">Ваша почта</label>
+                        </div>
+    
+                        <div class="contacts__textarea">
+                            <textarea name="text" id="text"></textarea>
+                            <label for="text">Ваше сообщение</label>
+                        </div>
+                        <div class="contacts__triggers">
+                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer"></div>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
