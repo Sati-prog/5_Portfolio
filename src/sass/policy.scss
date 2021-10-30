@@ -36,3 +36,30 @@
         line-height: 21px;
     }
 }
+
+@media (max-width: 1200px) {
+    .policy {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .policy {
+        max-width: 720px;
+        padding: 60px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .policy {
+        max-width: 540px;
+        padding: 60px 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .policy {
+        width: 100%;
+        padding: 30px 10px;
+    }
+}
