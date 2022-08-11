@@ -1,18 +1,23 @@
-const hamburger = document.querySelector('.hamburger'),
-      menu = document.querySelector('.menu'),
-      closeElem = document.querySelector('.menu__close');
+"use strict";
 
-hamburger.addEventListener('click', () => {
-    menu.classList.add('active');
-});
+window.addEventListener('DOMContentLoaded', () => {
 
-closeElem.addEventListener('click', () => {
-    menu.classList.remove('active');
-});
+    const hamburger = document.querySelector('.hamburger'),
+          menu = document.querySelector('.menu'),
+          closeElem = document.querySelector('.menu__close');
 
-const percents = document.querySelectorAll('.skills__progress-percent'),
-      rectangles = document.querySelectorAll('.skills__progress-rectangle span');
+    hamburger.addEventListener('click', () => {
+        menu.classList.add('active');
+    });
 
-percents.forEach((item, i) => {
-    rectangles[i].style.width = item.innerHTML;
+    closeElem.addEventListener('click', () => {
+        menu.classList.remove('active');
+    });
+
+    const percents = document.querySelectorAll('.skills__progress-percent'),
+          rectangles = document.querySelectorAll('.skills__progress-rectangle span');
+
+    percents.forEach((item, i) => {
+        rectangles[i].style.width = item.innerHTML;
+    });
 });

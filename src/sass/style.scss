@@ -1,11 +1,11 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;500&display=swap');
 
 @import 'base/variables';
 @import 'base/mixins';
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Muli', sans-serif;
     margin: 0;
     padding: 0;
 }
