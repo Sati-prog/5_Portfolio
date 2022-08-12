@@ -2,6 +2,7 @@
 
 window.addEventListener('DOMContentLoaded', () => {
 
+    // Hamburger
     const hamburger = document.querySelector('.hamburger'),
           menu = document.querySelector('.menu'),
           closeElem = document.querySelector('.menu__close');
@@ -20,4 +21,8 @@ window.addEventListener('DOMContentLoaded', () => {
     percents.forEach((item, i) => {
         rectangles[i].style.width = item.innerHTML;
     });
+    
+
+    // Modal
+    
 });

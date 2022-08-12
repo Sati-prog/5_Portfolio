@@ -1,18 +1,23 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
     background-color:rgb(255, 255, 224);
 }
 
-P { 
-    margin: 5px 80px 20px;
-    text-align:left;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+p { 
+    padding: 5px 80px;
+    text-align: left;
     font-size: 14px;
 }
 
 h4, ol {
-    font-weight: 900px;;
+    font-weight: 900;
     color: #A91D11;
     text-align: center;
+    margin-bottom: 20px;
+    padding-left: 0;
 }
 
 h5 {
@@ -20,24 +25,61 @@ h5 {
 }
 
 img {
-    width: 300px;
-    margin: 0 auto;
+    width: 350px;
+    margin: 30px auto;
     display: block;
     
   }
 
-  .theend {
-    color: 	#A91D11;
+.theend {
+    color: #A91D11;
     text-align: center;
     font-size: 20px;
 
-  }
+}
 
-  hr {
-      color: #A91D11;
-      size:30px;
-      width: 500px;
-      font-weight:900;
-  }
+hr {
+    color: #A91D11;
+    size: 3px;
+    width: 500px;
+    font-weight: 900;
+    margin: 50px auto;
+}
 
-  
+@media (max-width: 767px) {
+    p {
+        padding: 5px 40px;
+    }
+
+    h4, ol {
+        margin: 30px auto;
+    }
+
+    img {
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    hr {
+        width: 300px;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 575px) {
+    p {
+        padding: 3px 20px;
+    }
+
+    img {
+        width: 260px;
+    }
+
+    h5 {
+        padding: 0 20px;
+    }
+
+    hr {
+        width: 200px;
+    }
+}
